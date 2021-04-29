@@ -1,0 +1,17 @@
+name: rev_dashboard
+dependencies:
+  - python=3.7.5
+  - pip
+  - pip:
+    - geojson
+    - dash==1.16.1
+    - dash-bootstrap-components==0.10.6
+    - dash-core-components==1.12.1
+    - dash-dangerously-set-inner-html==0.0.2
+    - dash-flow-example==0.0.5
+    - dash-html-components==1.1.1
+    - dash-renderer==1.8.1
+    - dash-table==4.10.1
+    - ./deckgl_ly-0.0.1.tar.gz
+    - ./nrel_dash_components-0.0.1.tar.gz
+    - ./parallel_coordinate_plot-0.0.1.tar.gz
